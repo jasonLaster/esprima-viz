@@ -1,0 +1,37 @@
+<html>
+<head>
+
+  <script src="esprima.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+  <!-- CODE Mirror -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.6.0/codemirror.css" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.6.0/codemirror.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.6.0/mode/javascript/javascript.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+  <style>
+
+  rect {
+    stroke: #fff;
+  }
+
+  .CodeMirror {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .icicle {
+    position: absolute;
+    top: 300px;
+  }
+</style>
+
+
+</head>
+  <body>
+    <textarea id="source">x = function() {'use strict'; 2 +2; }</textarea>
+    <div class='icicle'></div>
+    <script src="home.js"></script>
+  </body>
+</html>
